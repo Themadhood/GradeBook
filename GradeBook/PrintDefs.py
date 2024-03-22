@@ -48,7 +48,7 @@ def PrintPosibleGrades_(self):
     for p in persents:
         self._PrintPosibleGrade(self._PosibleGrades[p],p)
 
-    print(F"Need minummom of: {need}/{self._PosibleGrades[100]} on rest for 70%")   
+    print(F"Need minimum of: {need}/{self._PosibleGrades[100]} on rest for 70%")   
 
 
 
