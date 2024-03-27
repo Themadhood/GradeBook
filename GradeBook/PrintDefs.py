@@ -37,7 +37,7 @@ def PrintPosibleGrade_(self,posibleGrade,persent):
     current = self._CurrentGrade + posibleGrade
     
     print(F"posible grade with {persent}%: {self._GetPrintPercent(current,\
-self._MaxGrade)}%")
+self._MaxGrade)}")
 
 
 def PrintPosibleGrades_(self):
